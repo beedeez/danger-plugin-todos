@@ -147,7 +147,7 @@ export default async function todos({
 				}
 			}
 
-			if (!(addedText && removedText)) {
+			if (!(addedText || removedText)) {
 				return
 			}
 
